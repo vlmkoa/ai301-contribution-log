@@ -1,7 +1,7 @@
-# Contribution [#]: BWC tests failing for org.opensearch.knn.bwc.IndexingIT.testKNNDefaultIndexSettings
+# Contribution [#1]: BWC tests failing for org.opensearch.knn.bwc.IndexingIT.testKNNDefaultIndexSettings
 
 
-**Contribution Number:** 1622
+**Contribution Number:** 1
 **Student:** Ryan Vo
 **Issue:** [[GitHub issue link]](https://github.com/opensearch-project/k-NN/issues/1622)  
 **Status:** [Phase I] [Complete]
@@ -11,6 +11,10 @@
 ## Why I Chose This Issue
 
 [1-2 paragraphs explaining why this issue interests you, how it matches your skills/learning goals, what you hope to learn]
+
+I chose this issue because this issue is at the intersection of distributed systems and low-level data handling, which is the area I want to grow in and have more experience. I understand that it is backward compatibility failure in the k-nn's plugin, where a search request serialized on a newer node cannot be correctly deserialized on an older node. I believe from this project, I can learn better how OpenSearch nodes communicate over the transport layer, how objects were versioned and serialized, and how rolling upgrades are tested.
+
+It also seems interesting to me because it is labeled good first issue but is also non-trivial, as the maintainer @jmazanec15  investigated it and was "unable to reproduce so far."  I hope to learn how to navigate a large, unfamiliar Java codebase, how OpenSearch handles serialization, and how to communicate findings clearly to maintainers.
 
 ---
 
